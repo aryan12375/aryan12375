@@ -2,6 +2,10 @@
 **AI/ML Engineer & Product Builder**
 *Currently completing B.Tech in AI & ML @ MIT Manipal (Oct '26)*
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=aryan12375&label=Profile%20Views&color=38bdf8&style=flat-square" alt="Profile Views" />
+</p>
+
 > I specialize in taking Machine Learning models out of Jupyter Notebooks and building production-grade, explainable, and source-verified applications.
 
 ---
@@ -21,11 +25,12 @@
 
 ---
 
-### 🛠️ Core Stack
-*   **Languages**: Python, SQL (DBMS), HTML/CSS, JS
-*   **Machine Learning**: PyTorch, TensorFlow, Scikit-Learn, Hugging Face, OpenCV
-*   **Data & MLOps**: PySpark, FAISS, Kafka, Docker
-*   **Web Interfaces**: FastAPI, Streamlit, Django, React
+### 🛠️ Tech Stack (Top 10)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,mysql,docker,git,js,html,css,react&theme=dark" alt="Tech Stack" />
+  </a>
+</p>
 
 ---
 
