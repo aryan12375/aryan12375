@@ -34,7 +34,7 @@
       </p>
     </td>
     <td width="42%" align="center" valign="middle">
-      <img src="assets/coding.gif" width="330" alt="Animated developer workspace" />
+      <img src="assets/ai-workbench.svg" width="360" alt="AI engineering workbench" />
     </td>
   </tr>
 </table>
@@ -82,7 +82,11 @@
 ### Activity Graph
 
 <p align="center">
-  <img src="assets/activity-snake.gif" width="860" alt="Animated activity graph with a snake trail moving through contribution boxes" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution graph with snake animation" />
+  </picture>
 </p>
 
 ---

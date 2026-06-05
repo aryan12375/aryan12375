@@ -1,0 +1,73 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI engineering workbench</title>
+  <desc id="desc">A crisp animated vector illustration of an AI engineering workspace with models, retrieval, vision, and APIs.</desc>
+  <style>
+    .float { animation: float 5s ease-in-out infinite; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    .scan { animation: scan 3.6s ease-in-out infinite; }
+    .dash { stroke-dasharray: 11 13; animation: dash 18s linear infinite; }
+    .blink { animation: blink 2.2s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes pulse { 0%, 100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } }
+    @keyframes scan { 0%, 100% { transform: translateY(0); opacity: .2; } 50% { transform: translateY(92px); opacity: .9; } }
+    @keyframes dash { to { stroke-dashoffset: -360; } }
+    @keyframes blink { 0%, 72%, 100% { opacity: .35; } 84% { opacity: 1; } }
+  </style>
+
+  <rect width="760" height="520" rx="36" fill="#0B1117"/>
+  <path d="M86 422C146 464 257 486 382 486C538 486 661 452 700 394" stroke="#132235" stroke-width="2"/>
+  <circle cx="134" cy="105" r="54" fill="#0F766E" opacity=".18"/>
+  <circle cx="612" cy="126" r="82" fill="#38BDF8" opacity=".12"/>
+  <circle cx="582" cy="398" r="50" fill="#F97316" opacity=".12"/>
+
+  <g class="float">
+    <rect x="88" y="94" width="252" height="178" rx="22" fill="#101A25" stroke="#2A3B4F" stroke-width="2"/>
+    <rect x="110" y="118" width="208" height="24" rx="8" fill="#172536"/>
+    <circle cx="128" cy="130" r="5" fill="#EF4444"/>
+    <circle cx="146" cy="130" r="5" fill="#F59E0B"/>
+    <circle cx="164" cy="130" r="5" fill="#22C55E"/>
+    <path d="M126 172H224" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 201H288" stroke="#14B8A6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 230H252" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+    <rect x="238" y="158" width="58" height="58" rx="14" fill="#0E7490" opacity=".8"/>
+    <path d="M253 187L266 199L284 174" stroke="#ECFEFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <path class="dash" d="M338 184C404 140 444 138 508 172" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    <path class="dash" d="M334 262C416 314 478 308 556 250" stroke="#14B8A6" stroke-width="4" stroke-linecap="round"/>
+    <path class="dash" d="M282 336C380 410 494 402 594 320" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+  </g>
+
+  <g class="pulse">
+    <circle cx="526" cy="206" r="78" fill="#102131" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="526" cy="206" r="48" fill="#0F172A" stroke="#14B8A6" stroke-width="2"/>
+    <path d="M526 145V267M465 206H587M484 164L568 248M568 164L484 248" stroke="#2DD4BF" stroke-width="3" opacity=".7"/>
+    <circle cx="526" cy="206" r="13" fill="#E0F2FE"/>
+  </g>
+
+  <g>
+    <rect x="414" y="298" width="214" height="120" rx="18" fill="#101A25" stroke="#2A3B4F" stroke-width="2"/>
+    <rect x="438" y="322" width="76" height="76" rx="16" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <path d="M456 359C465 337 493 337 502 359C493 381 465 381 456 359Z" stroke="#38BDF8" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="479" cy="359" r="9" fill="#E0F2FE"/>
+    <rect class="scan" x="446" y="334" width="60" height="7" rx="4" fill="#22D3EE"/>
+    <path d="M536 332H594" stroke="#E0F2FE" stroke-width="7" stroke-linecap="round"/>
+    <path d="M536 357H584" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M536 382H602" stroke="#14B8A6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="132" y="315" width="230" height="92" rx="18" fill="#101A25" stroke="#2A3B4F" stroke-width="2"/>
+    <path d="M162 348H216" stroke="#E0F2FE" stroke-width="8" stroke-linecap="round"/>
+    <path d="M162 374H276" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+    <rect x="296" y="342" width="36" height="36" rx="9" fill="#0F766E"/>
+    <path d="M306 360H322M314 352V368" stroke="#ECFEFF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g class="blink">
+    <circle cx="96" cy="346" r="7" fill="#38BDF8"/>
+    <circle cx="650" cy="280" r="7" fill="#14B8A6"/>
+    <circle cx="378" cy="120" r="7" fill="#E0F2FE"/>
+  </g>
+</svg>
