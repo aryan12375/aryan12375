@@ -20,20 +20,35 @@
   </a>
 </p>
 
----
-
-I build AI systems that move past demos and start behaving like real products: source-backed RAG, explainable computer vision, production APIs, and data pipelines that are built to be inspected, tested, and improved.
-
-My strongest work sits at the intersection of applied machine learning and product engineering. I care about models that can explain themselves, retrieval systems that show their evidence, and interfaces that make technical output feel usable for real people.
+<table>
+  <tr>
+    <td width="58%" valign="middle">
+      <h3>Building AI systems that explain themselves</h3>
+      <p>
+        I turn ML ideas into inspectable products: source-backed RAG, explainable vision,
+        production APIs, and clean user interfaces around technical systems.
+      </p>
+      <p>
+        My work sits where applied machine learning, product engineering, and trustworthy
+        evidence meet.
+      </p>
+    </td>
+    <td width="42%" align="center" valign="middle">
+      <img src="assets/coding.gif" width="330" alt="Animated developer workspace" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### What I Am Building Toward
 
-- **Source-grounded intelligence:** RAG systems with FAISS retrieval, MMR reranking, confidence scoring, and citation-first answers.
-- **Explainable vision:** Deepfake and medical-imaging workflows that pair model decisions with Grad-CAM style visual evidence.
-- **Responsible MLOps:** Carbon-aware experiment tracking, quantization gates, and practical ways to make model runs more efficient.
-- **Human-facing AI products:** FastAPI, React, Streamlit, and clean UX layers around ML systems so the work is usable outside notebooks.
+| Focus | What I care about |
+| --- | --- |
+| **Source-grounded intelligence** | RAG systems with FAISS retrieval, MMR reranking, confidence scoring, and citation-first answers. |
+| **Explainable vision** | Deepfake and medical-imaging workflows that pair model decisions with Grad-CAM style visual evidence. |
+| **Responsible MLOps** | Carbon-aware experiment tracking, quantization gates, and practical ways to make model runs more efficient. |
+| **Human-facing AI products** | FastAPI, React, Streamlit, and usable UX layers around ML systems so the work leaves the notebook. |
 
 ---
 
@@ -42,34 +57,45 @@ My strongest work sits at the intersection of applied machine learning and produ
 | Project | What it does | Why it matters |
 | --- | --- | --- |
 | **[DocIntel-RAG](https://github.com/aryan12375/DocIntel-RAG)** | Production-style RAG system with FAISS search, MMR reranking, source highlighting, and confidence scoring. | Shows I can build retrieval systems that are grounded, inspectable, and useful beyond a chat demo. |
-| **[Mental-Health-Agent](https://github.com/aryan12375/Mental-Health-Agent)** | Safety-first conversational agent with risk scoring, passive digital phenotyping, and intervention protocols. | Combines AI product thinking with guardrails for a sensitive real-world domain. |
 | **[face-forge-deepfake-detector](https://github.com/aryan12375/face-forge-deepfake-detector)** | Deepfake detection lab using EfficientNet-B4, Grad-CAM, FastAPI, React, and PyTorch. | Turns a model into an explainable application that users can actually inspect. |
-| **[Multimodal Sentiment Analysis](https://github.com/aryan12375/Multimodal-sentiment-analysis-)** | BERT + Wav2Vec2 sentiment pipeline with cross-attention fusion, sarcasm detection, and explainability. | Demonstrates multimodal ML, model interpretation, and end-to-end experimentation. |
-| **[Green MLOps](https://github.com/aryan12375/Carbon-aware-experiment-tracking-)** | Carbon-aware experiment tracking with runtime footprint estimates and adaptive quantization gates. | Pushes ML engineering toward systems that are not just accurate, but efficient and accountable. |
+| **[Mental-Health-Agent](https://github.com/aryan12375/Mental-Health-Agent)** | Safety-first conversational agent with risk scoring, passive digital phenotyping, and intervention protocols. | Combines AI product thinking with guardrails for a sensitive real-world domain. |
+| **[Multimodal Sentiment Analysis](https://github.com/aryan12375/Multimodal-sentiment-analysis-)** | BERT + Wav2Vec2 sentiment pipeline with cross-attention fusion, sarcasm detection, and explainability. | Demonstrates multimodal ML, interpretation, and end-to-end experimentation. |
+| **[Green MLOps](https://github.com/aryan12375/Carbon-aware-experiment-tracking-)** | Carbon-aware experiment tracking with runtime footprint estimates and adaptive quantization gates. | Pushes ML engineering toward systems that are accurate, efficient, and accountable. |
 | **[Movie Rating Pipeline](https://github.com/aryan12375/movie-rating-analysis-pyspark)** | PySpark pipeline built for large-scale movie-rating analysis across millions of records. | Highlights data engineering fundamentals at a scale where clean pipelines matter. |
 
 ---
 
 ### Core Stack
 
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,fastapi,mysql,docker,git,js,html,css,react&theme=dark" alt="Python, PyTorch, TensorFlow, scikit-learn, FastAPI, MySQL, Docker, Git, JavaScript, HTML, CSS, React" />
   </a>
 </p>
 
-**ML:** PyTorch, TensorFlow, scikit-learn, Hugging Face, OpenCV, Grad-CAM<br/>
-**Backend & APIs:** FastAPI, Python, SQL, Docker, Kafka<br/>
-**Data:** PySpark, FAISS, MySQL, retrieval pipelines, experiment tracking<br/>
-**Frontend:** React, JavaScript, HTML, CSS, Streamlit
+| ML | Backend & APIs | Data | Frontend |
+| --- | --- | --- | --- |
+| PyTorch, TensorFlow, scikit-learn, Hugging Face, OpenCV, Grad-CAM | FastAPI, Python, SQL, Docker, Kafka | PySpark, FAISS, MySQL, retrieval pipelines, experiment tracking | React, JavaScript, HTML, CSS, Streamlit |
+
+---
+
+### Activity Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/aryan12375/aryan12375/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake" />
+  </picture>
+</p>
 
 ---
 
 ### The Throughline
 
-I like building systems that make the model's reasoning easier to trust. If a pipeline makes a prediction, I want to show the evidence. If an LLM gives an answer, I want to show the source. If an experiment improves performance, I want to know what it cost.
+I like building systems that make model output easier to trust. If a pipeline makes a prediction, I want to show the evidence. If an LLM gives an answer, I want to show the source. If an experiment improves performance, I want to know what it cost.
 
-That is the kind of AI engineering I am trying to get better at every day: useful, explainable, and built with enough care that someone else can pick it up and believe in it.
+Useful, explainable, and built with enough care that someone else can pick it up and believe in it.
 
 ---
 
