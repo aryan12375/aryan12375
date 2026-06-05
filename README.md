@@ -34,7 +34,7 @@
       </p>
     </td>
     <td width="42%" align="center" valign="middle">
-      <img src="assets/ai-workbench.svg" width="360" alt="AI engineering workbench" />
+      <img src="assets/coding.gif" width="360" alt="AI engineering workbench" />
     </td>
   </tr>
 </table>
